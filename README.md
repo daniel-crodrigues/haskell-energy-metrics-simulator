@@ -1,6 +1,6 @@
 # Haskell Consumptio/Production Simulator
 
-Haskell MQTT Simulator is a project that simulates MQTT messages for consumption and production metrics. It uses Haskell for the simulation the consumption and production of electricity and MQTT for message communication.
+Haskell MQTT Simulator is a project that simulates MQTT messages for consumption and production metrics. It uses Haskell to simulate the consumption and production of electricity and MQTT for message communication.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Haskell MQTT Simulator is a project that simulates MQTT messages for consumption
 
 ## Introduction
 
-The Haskell MQTT Simulator generates simulated MQTT messages representing consumption and production metrics. These messages are based on CSV data and are sent to an MQTT broker for further processing.
+The Haskell MQTT Simulator generates events about the energy consumption and production and sends that events throught MQTT messages.
 
 ## Features
 
@@ -54,10 +54,6 @@ stack run
 
 You can configure the MQTT broker URI and other settings in the source code.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
 ## License
 
-This project is licensed under the BSD-3-Clause License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
